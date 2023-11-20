@@ -1,3 +1,7 @@
 hi 
 hello
+<<<<<<< HEAD
 hai
+=======
+ha
+>>>>>>> dfef97208f84990d8dcf0aa14c208b78641d7ced
