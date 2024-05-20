@@ -1,0 +1,179 @@
+
+body {
+    font-family: 'Roboto' ;
+    margin: 1px;
+    color: #0f172a;
+    background-color: #f1f5f9;
+    font-size: 23px;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Inter' ;
+}
+#navlogo {
+    height: 60px;
+    width: 120px;
+    margin: 0;
+    transition: 5s;
+        
+}
+
+h1 {
+    text-align: center;
+    color: #111827;
+    
+
+}
+h2 {
+    text-align: center;
+    color: #171717;
+    font-weight:700;
+
+    
+}
+
+#jobsec {
+    margin: 0 auto;
+    
+    max-width: 800px;
+    
+
+    }
+#job-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    color: #27272a;
+
+}  
+
+#job-title th {
+    
+    border: 1px solid green;
+    padding: 4px;
+    text-align: center ;
+    background-color: #ffedd5;
+    font-size: 22px;
+
+    }
+#jobs td {
+    margin: 0 auto;
+    border: 1px solid green;
+    padding: 4px;
+    font-size: 18px;
+    
+}
+#jobs:nth-child(even) {
+    background-color:#fdf2f8;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    
+    color: #6b7280;
+}
+
+#footer {
+    
+    text-align: center;
+    background-color:aliceblue; 
+    padding: 6px;
+    margin-top:30px ;
+}
+#footer-links {
+    text-align: center;
+    list-style: none;
+
+    
+}
+#footer-links li{
+    display: inline;
+    margin: 0 15px;
+    }
+
+#copy {
+    color: #94a3b8;
+}
+
+
+
+#banner{
+    
+    width: 100%;
+        /* object-fit: cover; */
+        /* border: 2px solid gainsboro; */
+        height: 440px;
+        align-items: center;
+        border-radius: 33px;
+    }
+#banner-p {
+    max-width:  1200px;
+
+    margin: 0 auto;
+}
+#navb {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* margin-right: 2px; */
+    padding: 4px;
+}
+#about {
+    display: flex;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 8px;
+}
+#desc {
+
+   width: 100%;
+   padding: 6px;
+   margin: 0 auto;
+   font-style: italic;
+   color: #27272a;
+   font-weight: 400;
+
+  }
+#team {
+    padding: 3px;
+    width: 100%;
+    padding: 5px;
+   
+    
+}
+.team-img {
+   width: 100%;
+   border-radius: 5px;
+   }
+
+#form {
+margin: 8px auto;
+max-width: 800px;
+/* border: 1px solid green; */
+}
+#form-data ,input, select, option,textarea{
+    margin: 5px;
+    padding: 7px;
+    font-weight: 500;
+    border-radius: 4px; 
+    font-size: 19px;
+}
+#cover {
+    width: 50%;   
+}
+#check {
+    margin-top: 16px;    
+}
+
+#form-data input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+    text-align: center;
+}
+#sub {
+    color: black;
+    background-color:skyblue;
+    padding: 7px;
+    margin-left: 13px;
+}
