@@ -1,179 +1,259 @@
 
+/* Moble */
+    
+html {
+    font-size: 14px;
+}
 body {
     font-family: 'Roboto' ;
-    margin: 1px;
-    color: #0f172a;
-    background-color: #f1f5f9;
-    font-size: 23px;
-
+    margin: 0;
+    padding: 0;
+    color: #444444;
+    font-size: 1rem;;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Inter' ;
-}
-#navlogo {
-    height: 60px;
-    width: 120px;
-    margin: 0;
-    transition: 5s;
-        
+    font-weight: 600;
+    color: #222222;
 }
 
-h1 {
-    text-align: center;
-    color: #111827;
-    
+h1 { font-size: 2.5rem;}
+h2 { font-size: 2rem;}
+h3 { font-size: 1.75rem;}
+h4 { font-size: 1.5rem;}
+h5 { font-size: 1.25rem;}
+h6 { font-size: 1rem;}
 
-}
-h2 {
-    text-align: center;
-    color: #171717;
-    font-weight:700;
 
-    
-}
-
-#jobsec {
-    margin: 0 auto;
-    
-    max-width: 800px;
-    
-
-    }
-#job-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 0 auto;
-    color: #27272a;
-
-}  
-
-#job-title th {
-    
-    border: 1px solid green;
-    padding: 4px;
-    text-align: center ;
-    background-color: #ffedd5;
-    font-size: 22px;
-
-    }
-#jobs td {
-    margin: 0 auto;
-    border: 1px solid green;
-    padding: 4px;
-    font-size: 18px;
-    
-}
-#jobs:nth-child(even) {
-    background-color:#fdf2f8;
-}
 a{
     text-decoration: none;
+    color: skyblue;
 }
 a:hover {
     
     color: #6b7280;
 }
-
-#footer {
-    
-    text-align: center;
-    background-color:aliceblue; 
-    padding: 6px;
-    margin-top:30px ;
-}
-#footer-links {
-    text-align: center;
-    list-style: none;
-
-    
-}
-#footer-links li{
-    display: inline;
-    margin: 0 15px;
-    }
-
-#copy {
-    color: #94a3b8;
+#navbar {
+    margin: 6px;
 }
 
-
-
+#logo-text{
+    display: none;
+}
 #banner{
-    
     width: 100%;
-        /* object-fit: cover; */
-        /* border: 2px solid gainsboro; */
-        height: 440px;
-        align-items: center;
-        border-radius: 33px;
-    }
-#banner-p {
-    max-width:  1200px;
-
-    margin: 0 auto;
+    object-fit: cover; 
+    height: 200px;
 }
-#navb {
-    max-width: 1200px;
-    margin: 0 auto;
-    /* margin-right: 2px; */
-    padding: 4px;
+#logo {
+    width: 10%;
+    margin-bottom: 0px;
+}
+h1 {
+    text-align: center;
+    color: #111827;
+    margin: 9px 0;
+   
 }
 #about {
     display: flex;
+    flex-direction: column;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 500px;
     padding: 8px;
 }
+
 #desc {
 
-   width: 100%;
-   padding: 6px;
-   margin: 0 auto;
-   font-style: italic;
-   color: #27272a;
-   font-weight: 400;
-
-  }
+    width: 97%;
+    margin: 6 auto;
+    font-style: italic;
+    color: #27272a;
+    font-weight: 400;
+ 
+   }
 #team {
     padding: 3px;
     width: 100%;
     padding: 5px;
-   
+    max-width: 400px;
     
 }
-.team-img {
-   width: 100%;
-   border-radius: 5px;
-   }
-
-#form {
-margin: 8px auto;
-max-width: 800px;
-/* border: 1px solid green; */
-}
-#form-data ,input, select, option,textarea{
-    margin: 5px;
-    padding: 7px;
-    font-weight: 500;
-    border-radius: 4px; 
-    font-size: 19px;
-}
-#cover {
-    width: 50%;   
-}
-#check {
-    margin-top: 16px;    
+#team-img {
+    height: 200px;
+    align-items: center;
+    width: 98%;
 }
 
-#form-data input[type="checkbox"] {
-    width: 14px;
-    height: 14px;
-    text-align: center;
+/* tablets */
+@media screen and (min-width: 576px) {
+    html {
+        font-size: 16px;
+    }
+    #logo {
+        display: none;
+      }
+    
+      #logo-text {
+        display: block;
+      }
+      #banner{
+        width: 100%;
+        object-fit: cover; 
+        height: 350px;
+    }
+    h1 {
+        text-align: center;
+        color: #111827;
+    margin: 13px 0;
+        
+    }
+    #about {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 8px;
+    }
+    
+    #desc {
+    
+        width: 97%;
+        margin: 6 auto;
+        font-style: italic;
+        color: #27272a;
+        font-weight: 400;
+     
+       }
+    #team {
+        padding: 3px;
+        /* width: 100%; */
+        padding: 5px;
+        max-width: 600px;
+        
+    }
+    #team-img {
+        height: 280px;
+        align-items: center;
+        width: 98%;
+    }
+   
+        
+        h2 {
+            font-family: Roboto;
+            text-align: center;
+            color: #171717;
+            font-weight:500;
+                 
+        }
+        
+        #jobsec {
+            margin: 0 auto;
+            
+            max-width: 600px;
+            
+        
+            }
+        #job-table {
+            width: 100%;
+            
+            border-collapse: collapse;
+            margin: 0 auto;
+            color: #27272a;
+        
+        }  
+        
+        #job-title th {
+            
+            border: 1px solid green;
+            padding: 4px;
+            text-align: center ;
+            background-color: #ffedd5;
+            font-size: 20px;
+        
+            }
+        #jobs td {
+            margin: 0 auto;
+            border: 1px solid green;
+            padding: 13px;
+            font-size: 18px;
+            
+        }
+        #jobs:nth-child(even) {
+            background-color:#fdf2f8;
+        }
+        #form {
+            /* margin: 8px 0 0px 100; */
+            max-width: 800px;
+            margin: 0 auto;
+                       
+        }
+        #form-data ,input, select, option,textarea{
+            margin: 6px;
+            padding: 6px;
+            font-weight: 400;
+            border-radius: 4px; 
+            font-size: 16px;
+            font-family: "Roboto";
+        }
+        #form-data input[type="checkbox"] {
+            width: 15px;
+            height: 15px;
+            text-align: center;
+        }
+            
+        #check {
+            margin-top: 14px;    
+        }
+        #cover {
+            width: 50%;   
+        }
+        #sub {
+            color: black;
+            background-color:skyblue;
+            padding: 6px;
+            margin-left: 10px;
+        }
+        #footer {
+    
+            text-align: center;
+            background-color:aliceblue; 
+            padding: 4px;
+            margin-top:30px ;
+        }
+        #footer-links {
+            text-align: center;
+            list-style: none;
+        
+            
+        }
+        #footer-links li{
+            display: inline;
+            margin: 0 13px;
+            }
+        
+        #copy {
+            color: #94a3b8;
+        }
+        
 }
-#sub {
-    color: black;
-    background-color:skyblue;
-    padding: 7px;
-    margin-left: 13px;
+/* labtops */
+@media screen and (min-width:770px){
+    html {
+        font-size: 18px;
+    }
+ 
 }
+/* large screen or desktop */
+
+@media screen and (min-width:970px){
+    html {
+        font-size: 18px;
+    }
+}
+/*
+
+
+
+*/
